@@ -1,0 +1,55 @@
+vendor_id,vendor_name,country,vendor_type,vendor_status,orders_fulfilled,avg_fulfilment_days,vendor_rating
+VEND-001,Vendor 01,Netherlands,Repair,Preferred,47,1.4,3.4
+VEND-002,Vendor 02,Singapore,Procurement & Storage,Preferred,104,8.7,4.2
+VEND-003,Vendor 03,United Kingdom,Procurement & Storage,Temporary,48,5.9,4.1
+VEND-004,Vendor 04,Netherlands,Procurement,Preferred,42,7.5,3.8
+VEND-005,Vendor 05,US,Procurement,Temporary,89,4.2,4.2
+VEND-006,Vendor 06,Canada,Storage,Active,77,3.6,4.3
+VEND-007,Vendor 07,US,Procurement & Storage,Active,47,1.4,4.7
+VEND-008,Vendor 08,Germany,Repair,Inactive,52,7.9,4.2
+VEND-009,Vendor 09,Singapore,Storage,Active,81,9.4,5.0
+VEND-010,Vendor 10,Nigeria,Procurement,Preferred,5,9.5,3.1
+VEND-011,Vendor 11,Australia,Procurement & Storage,Temporary,29,2.7,3.8
+VEND-012,Vendor 12,Netherlands,Repair,Temporary,94,6.6,4.4
+VEND-013,Vendor 13,Netherlands,Procurement,Preferred,54,4.3,4.2
+VEND-014,Vendor 14,Germany,Procurement,Temporary,37,4.2,3.8
+VEND-015,Vendor 15,Netherlands,Storage,Active,66,2.3,3.6
+VEND-016,Vendor 16,Netherlands,Procurement,Active,63,2.4,3.6
+VEND-017,Vendor 17,US,Procurement & Storage,Inactive,59,9.7,3.6
+VEND-018,Vendor 18,USA,Repair,Active,61,14.4,4.4
+VEND-019,Vendor 19,Singapore,Storage,Active,27,7.1,3.6
+VEND-020,Vendor 20,USA,Procurement,Active,55,8.6,3.8
+VEND-021,Vendor 21,Australia,Procurement,Active,41,6.9,5.0
+VEND-022,Vendor 22,Canada,Procurement & Storage,Active,92,6.2,4.7
+VEND-023,Vendor 23,UK,Repair,Active,85,4.4,4.1
+VEND-024,Vendor 24,USA,Repair,Active,101,11.8,3.8
+VEND-025,Vendor 25,Australia,Procurement & Storage,Active,73,11.9,4.5
+VEND-026,Vendor 26,Netherlands,Procurement,Preferred,48,4.8,4.4
+VEND-027,Vendor 27,Australia,Repair,Inactive,109,9.4,4.4
+VEND-028,Vendor 28,Canada,Storage,Active,33,1.8,3.7
+VEND-029,Vendor 29,US,Procurement & Storage,Active,14,5.8,4.1
+VEND-030,Vendor 30,US,Procurement & Storage,Inactive,24,8.4,4.2
+VEND-031,Vendor 31,Australia,Procurement,Inactive,47,2.5,4.3
+VEND-032,Vendor 32,USA,Procurement & Storage,Temporary,73,8.3,4.4
+VEND-033,Vendor 33,Australia,Procurement,Preferred,7,9.7,4.6
+VEND-034,Vendor 34,Netherlands,Storage,Temporary,54,7.9,4.1
+VEND-035,Vendor 35,Nigeria,Procurement & Storage,Active,66,1.5,4.3
+VEND-036,Vendor 36,Singapore,Storage,Active,50,7.1,4.2
+VEND-037,Vendor 37,United States,Repair,Preferred,18,2.7,3.5
+VEND-038,Vendor 38,UK,Storage,Temporary,87,9.7,4.1
+VEND-039,Vendor 39,Germany,Storage,Inactive,36,8.5,4.1
+VEND-040,Vendor 40,USA,Procurement,Inactive,40,6.6,4.6
+VEND-041,Vendor 41,UK,Procurement,Preferred,108,5.0,4.2
+VEND-042,Vendor 42,Australia,Repair,Active,63,5.1,3.9
+VEND-043,Vendor 43,UK,Repair,Active,103,5.6,4.2
+VEND-044,Vendor 44,Nigeria,Storage,Active,108,5.1,4.8
+VEND-045,Vendor 45,Australia,Storage,Active,110,3.8,4.0
+VEND-046,Vendor 46,USA,Repair,Temporary,38,5.2,4.9
+VEND-047,Vendor 47,Singapore,Storage,Active,70,7.1,4.7
+VEND-048,Vendor 48,Canada,Procurement & Storage,Temporary,86,2.0,4.2
+VEND-049,Vendor 49,Germany,Procurement & Storage,Temporary,50,9.2,4.1
+VEND-050,Vendor 50,US,Procurement & Storage,Preferred,89,9.7,3.8
+VEND-051,Vendor 51,United Kingdom,Repair,Active,16,10.7,5.0
+VEND-052,Vendor 52,Nigeria,Procurement,Preferred,58,5.4,3.9
+VEND-053,Vendor 53,Singapore,Storage,Inactive,17,10.9,5.0
+VEND-054,Vendor 54,Germany,Repair,Preferred,18,4.9,3.9

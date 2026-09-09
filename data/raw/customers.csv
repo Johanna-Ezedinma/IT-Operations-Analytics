@@ -1,0 +1,148 @@
+customer_id,company_name,country,industry,employee_count,devices_managed,customer_start_date,customer_status,annual_revenue,acquisition_source,plan
+CUST-0001,Customer 001,United Kingdom,Technology,118,27,2025-04-25,Active,7130,Accelerator,Starter
+CUST-0002,Customer 002,United States,FinTech,68,18,2026-07-13,Active,4750,Event,Starter
+CUST-0003,Customer 003,France,E-commerce,71,30,2026-07-29,Active,7920,Event,Starter
+CUST-0004,Customer 004,Canada,FinTech,473,89,2025-01-07,Active,19220,Inbound,Growth
+CUST-0005,Customer 005,Nigeria,Healthcare,79,17,2025-12-11,Active,4490,Outbound,Starter
+CUST-0006,Customer 006,Canada,Professional Services,108,28,2026-04-16,Paused,6050,Accelerator,Growth
+CUST-0007,Customer 007,United States,Media,500,92,2026-01-06,Active,19870,Outbound,Growth
+CUST-0008,Customer 008,Germany,Professional Services,276,99,2025-08-27,Active,16630,Inbound,Enterprise
+CUST-0009,Customer 009,Singapore,Healthcare,46,24,2025-08-03,Active,5180,Accelerator,Growth
+CUST-0010,Customer 010,Singapore,FinTech,72,28,2025-09-08,Active,7390,Accelerator,Starter
+CUST-0011,Customer 011,Nigeria,Technology,71,14,2025-02-27,Active,3700,Inbound,Starter
+CUST-0012,Customer 012,Singapore,Education,79,44,2026-08-04,Active,7390,Partner,Enterprise
+CUST-0013,Customer 013,UK,E-commerce,67,23,2025-05-23,Active,6070,Event,Starter
+CUST-0014,Customer 014,Germany,Technology,31,17,2025-08-13,Active,2860,Referral,Enterprise
+CUST-0015,Customer 015,US,Healthcare,34,10,2025-06-13,Active,2160,Partner,Growth
+CUST-0016,Customer 016,Australia,Healthcare,184,41,2026-07-21,Active,6890,Outbound,Enterprise
+CUST-0017,Customer 017,,Education,23,10,2025-12-15,Active,2640,Accelerator,Starter
+CUST-0018,Customer 018,US,Professional Services,135,40,2026-05-28,Active,8640,Accelerator,Growth
+CUST-0019,Customer 019,France,Healthcare,41,11,2025-07-23,Active,2900,Referral,Starter
+CUST-0020,Customer 020,UK,FinTech,31,6,2026-05-16,Churned,1580,Event,Starter
+CUST-0021,Customer 021,France,FinTech,275,85,2025-03-29,Active,18360,Accelerator,Growth
+CUST-0022,Customer 022,Netherlands,FinTech,75,17,2026-07-17,Active,4490,Event,Starter
+CUST-0023,Customer 023,Singapore,E-commerce,106,34,2025-07-25,Active,7340,Event,Growth
+CUST-0024,Customer 024,Netherlands,Healthcare,8,7,2025-09-11,Active,1850,Inbound,Starter
+CUST-0025,Customer 025,US,Professional Services,36,11,2025-03-02,Churned,2900,Accelerator,Starter
+CUST-0026,Customer 026,Germany,E-commerce,28,14,2026-07-07,Churned,3700,Partner,Starter
+CUST-0027,Customer 027,Canada,Education,61,15,2025-04-10,Active,3240,Referral,Growth
+CUST-0028,Customer 028,US,FinTech,78,25,2025-04-11,Active,6600,Event,Starter
+CUST-0029,Customer 029,US,Media,21,13,2026-03-09,Active,3430,Event,Starter
+CUST-0030,Customer 030,United Kingdom,E-commerce,103,49,2026-07-08,Paused,8230,Partner,Enterprise
+CUST-0031,Customer 031,United States,Professional Services,97,40,2026-02-15,Active,6720,Partner,Enterprise
+CUST-0032,Customer 032,United Kingdom,Technology,480,110,2026-07-24,Active,23760,Event,Growth
+CUST-0033,Customer 033,Netherlands,Media,60,32,2025-03-04,Active,6910,Event,Growth
+CUST-0034,Customer 034,Netherlands,Media,29,10,2026-06-05,Active,2640,Inbound,Starter
+CUST-0035,Customer 035,Netherlands,Education,123,34,2026-08-07,Active,8980,Event,Starter
+CUST-0036,Customer 036,Australia,Professional Services,47,27,2025-11-20,Active,4540,Partner,Enterprise
+CUST-0037,Customer 037,United States,Healthcare,48,32,2025-11-04,Churned,6910,Referral,Growth
+CUST-0038,Customer 038,Nigeria,FinTech,21,9,2025-08-07,Active,1940,Outbound,Growth
+CUST-0039,Customer 039,Netherlands,Media,86,25,2026-03-25,Active,4200,Accelerator,Enterprise
+CUST-0040,Customer 040,USA,Technology,78,22,2026-07-22,Active,5810,Accelerator,Starter
+CUST-0041,Customer 041,Nigeria,Education,107,32,2025-10-06,Active,8450,Outbound,Starter
+CUST-0042,Customer 042,US,Media,93,67,2025-09-15,Active,11260,Outbound,Enterprise
+CUST-0043,Customer 043,UK,E-commerce,127,30,2025-12-08,Active,6480,Event,Growth
+CUST-0044,Customer 044,Australia,Healthcare,76,16,2026-07-29,Active,4220,Referral,Starter
+CUST-0045,Customer 045,UK,Media,35,7,2026-07-20,Active,1850,Referral,Starter
+CUST-0046,Customer 046,Nigeria,Media,107,20,2025-08-04,Active,4320,Partner,Growth
+CUST-0047,Customer 047,USA,Media,219,44,2025-06-08,Active,7390,Inbound,Enterprise
+CUST-0048,Customer 048,Canada,Media,140,30,2025-01-26,Churned,7920,Accelerator,Starter
+CUST-0049,Customer 049,Canada,Media,53,25,2025-10-01,Active,6600,Partner,Starter
+CUST-0050,Customer 050,United Kingdom,Education,17,6,2026-04-17,Active,1580,Inbound,Starter
+CUST-0051,Customer 051,UK,Healthcare,305,74,2025-10-13,Paused,12430,Partner,Enterprise
+CUST-0052,Customer 052,UK,Professional Services,24,15,2026-07-04,Active,3960,Referral,Starter
+CUST-0053,Customer 053,Canada,Healthcare,34,12,2026-03-21,Active,3170,Referral,Starter
+CUST-0054,Customer 054,,Media,120,29,2026-08-14,Active,7660,Event,Starter
+CUST-0055,Customer 055,Singapore,Healthcare,259,64,2025-07-21,Active,13820,Outbound,Growth
+CUST-0056,Customer 056,UK,Professional Services,251,60,2025-05-08,Active,12960,Partner,Growth
+CUST-0057,Customer 057,Canada,FinTech,40,11,2026-07-22,Active,2900,Event,Starter
+CUST-0058,Customer 058,UK,Media,102,27,2026-02-20,Active,5830,Event,Growth
+CUST-0059,Customer 059,United Kingdom,Media,79,41,2025-11-26,Active,8860,Accelerator,Growth
+CUST-0060,Customer 060,Netherlands,Media,151,37,2025-03-28,Active,9770,Inbound,Starter
+CUST-0061,Customer 061,United States,E-commerce,213,44,2025-08-19,Active,7390,Event,Enterprise
+CUST-0062,Customer 062,Australia,E-commerce,42,19,2025-03-16,Churned,4100,Partner,Growth
+CUST-0063,Customer 063,Canada,Media,82,24,2025-01-06,Churned,4030,Accelerator,Enterprise
+CUST-0064,Customer 064,USA,Education,32,6,2025-02-21,Churned,1300,Event,Growth
+CUST-0065,Customer 065,Australia,E-commerce,224,72,2025-11-21,Churned,12100,Event,Enterprise
+CUST-0066,Customer 066,UK,Media,189,79,2025-06-12,Active,17060,Accelerator,Growth
+CUST-0067,Customer 067,Germany,Professional Services,73,31,2026-06-18,Active,6700,Inbound,Growth
+CUST-0068,Customer 068,USA,Education,487,115,2025-11-24,Active,19320,Inbound,Enterprise
+CUST-0069,Customer 069,Germany,FinTech,117,41,2025-03-07,Active,8860,Partner,Growth
+CUST-0070,Customer 070,Canada,Professional Services,173,39,2025-01-21,Active,6550,Outbound,Enterprise
+CUST-0071,Customer 071,Netherlands,E-commerce,97,41,2026-03-06,Active,8860,Inbound,Growth
+CUST-0072,Customer 072,Singapore,Education,259,54,2026-05-13,Active,14260,Inbound,Starter
+CUST-0073,Customer 073,Canada,Education,90,58,2025-05-11,Active,9740,Referral,Enterprise
+CUST-0074,Customer 074,United States,Professional Services,173,55,2026-03-15,Active,14520,Inbound,Starter
+CUST-0075,Customer 075,Canada,Technology,7,6,2025-12-12,Active,1300,Partner,Growth
+CUST-0076,Customer 076,United Kingdom,Media,46,34,2026-07-07,Paused,8980,Accelerator,Starter
+CUST-0077,Customer 077,United States,FinTech,203,63,2025-02-01,Active,10580,Inbound,Enterprise
+CUST-0078,Customer 078,Australia,Professional Services,102,27,2025-04-28,Active,5830,Inbound,Growth
+CUST-0079,Customer 079,UK,Technology,128,35,2025-04-28,Active,7560,Outbound,Growth
+CUST-0080,Customer 080,US,Media,20,9,2026-01-20,Active,1940,Accelerator,Growth
+CUST-0081,Customer 081,US,Healthcare,140,52,2025-11-05,Active,8740,Referral,Enterprise
+CUST-0082,Customer 082,Singapore,Media,194,41,2026-03-15,Active,8860,Partner,Growth
+CUST-0083,Customer 083,Germany,E-commerce,374,86,2025-04-19,Active,18580,Inbound,Growth
+CUST-0084,Customer 084,Germany,Education,42,18,2025-10-04,Churned,3890,Event,Growth
+CUST-0085,Customer 085,Germany,E-commerce,133,35,2025-09-09,Active,5880,Event,Enterprise
+CUST-0086,Customer 086,Nigeria,FinTech,64,14,2026-01-24,Active,3700,Outbound,Starter
+CUST-0087,Customer 087,UK,Healthcare,56,36,2025-12-15,Active,9500,Inbound,Starter
+CUST-0088,Customer 088,Australia,Education,128,41,2026-02-21,Active,8860,Partner,Growth
+CUST-0089,Customer 089,Australia,Education,39,14,2025-01-18,Active,3700,Event,Starter
+CUST-0090,Customer 090,Australia,Professional Services,144,46,2026-07-21,Active,9940,Accelerator,Growth
+CUST-0091,Customer 091,United Kingdom,Education,111,21,2025-11-10,Active,5540,Event,Starter
+CUST-0092,Customer 092,UK,Media,139,37,2025-07-09,Active,9770,Event,Starter
+CUST-0093,Customer 093,Nigeria,Technology,132,38,2025-04-13,Active,6380,Accelerator,Enterprise
+CUST-0094,Customer 094,UK,FinTech,78,16,2025-10-08,Active,4220,Accelerator,Starter
+CUST-0095,Customer 095,UK,E-commerce,29,15,2026-05-18,Active,3960,Outbound,Starter
+CUST-0096,Customer 096,US,Technology,11,3,2025-02-22,Churned,790,Event,Starter
+CUST-0097,Customer 097,UK,FinTech,86,24,2025-02-24,Active,6340,Referral,Starter
+CUST-0098,Customer 098,United Kingdom,E-commerce,199,39,2026-03-03,Active,8420,Partner,Growth
+CUST-0099,Customer 099,UK,Technology,319,60,2025-11-01,Paused,10080,Event,Enterprise
+CUST-0100,Customer 100,United Kingdom,Technology,113,51,2025-04-12,Active,8570,Inbound,Enterprise
+CUST-0101,Customer 101,Germany,E-commerce,10,8,2026-07-20,Active,2110,Outbound,Starter
+CUST-0102,Customer 102,Germany,FinTech,114,25,2025-10-23,Active,5400,Outbound,Growth
+CUST-0103,Customer 103,Singapore,Professional Services,39,26,2025-07-22,Active,5620,Inbound,Growth
+CUST-0104,Customer 104,Netherlands,E-commerce,61,19,2025-06-19,Active,4100,Referral,Growth
+CUST-0105,Customer 105,Germany,Healthcare,90,18,2025-11-08,Churned,3890,Referral,Growth
+CUST-0106,Customer 106,United Kingdom,Media,160,43,2025-11-27,Active,9290,Event,Growth
+CUST-0107,Customer 107,UK,Media,660,205,2025-01-22,Active,34440,Inbound,Enterprise
+CUST-0108,Customer 108,Netherlands,Media,359,67,2026-03-29,Active,11260,Partner,Enterprise
+CUST-0109,Customer 109,Singapore,FinTech,68,23,2026-04-27,Active,6070,Outbound,Starter
+CUST-0110,Customer 110,France,Technology,34,15,2026-05-23,Churned,3960,Outbound,Starter
+CUST-0111,Customer 111,France,Technology,83,17,2025-04-29,Active,2860,Accelerator,Enterprise
+CUST-0112,Customer 112,Nigeria,E-commerce,99,32,2026-04-19,Active,6910,Accelerator,Growth
+CUST-0113,Customer 113,UK,Education,34,20,2025-02-22,Active,5280,Partner,Starter
+CUST-0114,Customer 114,United States,Technology,896,164,2025-09-03,Active,35420,Inbound,Growth
+CUST-0115,Customer 115,USA,Education,98,29,2025-04-27,Active,6260,Outbound,Growth
+CUST-0116,Customer 116,Germany,Healthcare,113,40,2025-10-07,Active,8640,Inbound,Growth
+CUST-0117,Customer 117,US,Media,85,32,2026-06-05,Active,6910,Partner,Growth
+CUST-0118,Customer 118,Australia,Healthcare,49,9,2026-06-04,Active,2380,Event,Starter
+CUST-0119,Customer 119,Germany,Healthcare,355,126,2026-05-17,Active,21170,Event,Enterprise
+CUST-0120,Customer 120,United Kingdom,FinTech,135,98,2025-11-26,Paused,16460,Partner,Enterprise
+CUST-0121,Customer 121,Canada,Media,297,55,2026-04-30,Active,11880,Accelerator,Growth
+CUST-0122,Customer 122,Netherlands,Technology,53,33,2026-05-23,Active,5540,Partner,Enterprise
+CUST-0123,Customer 123,Singapore,Technology,223,49,2026-04-13,Active,12940,Partner,Starter
+CUST-0124,Customer 124,Singapore,Professional Services,39,8,2025-09-29,Active,2110,Accelerator,Starter
+CUST-0125,Customer 125,Germany,Technology,131,88,2026-01-25,Active,14780,Event,Enterprise
+CUST-0126,Customer 126,Canada,Media,1056,250,2025-10-22,Active,42000,Accelerator,Enterprise
+CUST-0127,Customer 127,United States,Media,41,17,2025-04-13,Active,3670,Referral,Growth
+CUST-0128,Customer 128,Canada,Media,42,22,2026-01-19,Active,4750,Inbound,Growth
+CUST-0129,Customer 129,Singapore,Healthcare,76,35,2025-03-22,Active,7560,Inbound,Growth
+CUST-0130,Customer 130,Germany,Education,43,23,2025-09-18,Active,4970,Event,Growth
+CUST-0131,Customer 131,UK,E-commerce,50,22,2026-03-29,Paused,3700,Accelerator,Enterprise
+CUST-0132,Customer 132,Germany,E-commerce,57,21,2025-11-06,Active,5540,Event,Starter
+CUST-0133,Customer 133,Singapore,Technology,147,30,2025-10-30,Active,5040,Event,Enterprise
+CUST-0134,Customer 134,UK,FinTech,381,82,2025-02-20,Active,13780,Event,Enterprise
+CUST-0135,Customer 135,Singapore,Media,74,18,2025-08-13,Active,3890,Accelerator,Growth
+CUST-0136,Customer 136,UK,Technology,179,65,2025-05-21,Churned,14040,Event,Growth
+CUST-0137,Customer 137,Australia,FinTech,54,12,2025-05-15,Active,3170,Inbound,Starter
+CUST-0138,Customer 138,UK,E-commerce,92,21,2026-01-10,Churned,4540,Outbound,Growth
+CUST-0139,Customer 139,US,FinTech,440,102,2025-12-13,Active,17140,Accelerator,Enterprise
+CUST-0140,Customer 140,Nigeria,E-commerce,63,27,2026-02-11,Active,4540,Referral,Enterprise
+CUST-0141,Customer 141,Singapore,E-commerce,199,38,2025-05-07,Active,8210,Accelerator,Growth
+CUST-0142,Customer 142,Netherlands,Healthcare,395,77,2025-04-21,Active,16630,Outbound,Growth
+CUST-0143,Customer 143,Germany,Professional Services,32,11,2025-08-15,Active,2380,Accelerator,Growth
+CUST-0144,Customer 144,Germany,FinTech,39,22,2025-05-24,Active,5810,Event,Starter
+CUST-0145,Customer 145,France,Education,54,29,2026-04-10,Churned,6260,Accelerator,Growth
+CUST-0018,Customer 018,US,Professional Services,135,40,2026-05-28,Active,8640,Accelerator,Growth
+CUST-0064,Customer 064,USA,Education,32,6,2025-02-21,Churned,1300,Event,Growth
