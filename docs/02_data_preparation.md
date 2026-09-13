@@ -7,8 +7,6 @@
 [![Data Profiling](https://img.shields.io/badge/Data_Profiling-5B6864?style=for-the-badge)](01_data_profiling.md)
 [![Data Preparatin](https://img.shields.io/badge/Data_Preparation-5444F1?style=for-the-badge)](02_data_preparation.md)
 [![Analysis](https://img.shields.io/badge/Analysis-5B6864?style=for-the-badge)](03_analysis.md)
-[![Recommendations](https://img.shields.io/badge/Recommendations-5B6864?style=for-the-badge)](docs/recommendations.md)
-[![Dashboard](https://img.shields.io/badge/Dashboard-5B6864?style=for-the-badge)](#the-dashboard)
 
 </td>
 </tr>

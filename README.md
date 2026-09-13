@@ -7,8 +7,7 @@
 [![Data Profiling](https://img.shields.io/badge/Data_Profiling-5B6864?style=for-the-badge)](docs/01_data_profiling.md)
 [![Data Preparatin](https://img.shields.io/badge/Data_Preparation-5B6864?style=for-the-badge)](docs/02_data_preparation.md)
 [![Analysis](https://img.shields.io/badge/Analysis-5B6864?style=for-the-badge)](docs/03_analysis.md)
-[![Recommendations](https://img.shields.io/badge/Recommendations-5B6864?style=for-the-badge)](docs/recommendations.md)
-[![Dashboard](https://img.shields.io/badge/Dashboard-5B6864?style=for-the-badge)](#the-dashboard)
+[![Recommendations](https://img.shields.io/badge/Recommendations-5B6864?style=for-the-badge)](#key-recommendations)
 
 </td>
 </tr>
@@ -112,11 +111,35 @@ To test this idea, Vectral ran a controlled experiment:
 
 ---
 
+## Summary
+
+**Are we making more money over time, or does it just feel like it?**
+Genuinely growing; $1.01M in real ARR, not a mirage. But it's not a smooth climb. Some months bring in a dozen new customers, others just one or two, so month to month it can feel less steady than the total number suggests.
+
+**Which types of customers bring in the most value?**
+Depends what you mean by "value." Enterprise customers pay the most per account ($11,158/year vs. Starter's $5,597) but Growth tier brings in the most money overall, simply because it has more customers (57 accounts, $434K total). None of that revenue difference shows up in hardware spend, either all three tiers order similarly-sized batches. Plan tier tells you about contract value, not device demand.
+
+**Why are orders failing or getting cancelled in certain regions?**
+Honestly, we can tell you _where_, not fully _why_ yet. France and Australia fail around 22-23% of orders, versus 6% in Singapore a real, sizable pattern. But without a way to trace an order back to the specific vendor that handled it, we can't say whether the cause is vendor coverage, shipping distance, customs, or something else specific to those markets. That gap is exactly why fixing the Vendors-to-Orders link is one of the recommendations below.
+
+**Is the new software feature we built actually helping customers stay active?**
+The early signal says yes, Treatment customers' activity rose 57% while Control barely moved, and adoption was roughly double. But because Treatment and Control weren't evenly matched by company size going in, this isn't proof yet, just a promising direction worth testing more rigorously before betting a full rollout on it.
+
+---
+
 ## Key Recommendations
 
-1. **Hold off on further sales push into France and Australia** until Operations investigates the ~22-23% order failure rate in those two markets specifically.
-2. **Re-evaluate the Fleet Health Alerts experiment:** before rolling the new feature out to everyone, re-check the result controlling for plan tier, and run an actual statistical significance test instead of comparing raw averages.
-3. **Fix two data-model gaps upstream:** add a field linking a won lead to the customer it becomes, and a field linking an order to the vendor that filled it. Both are small schema changes with a real reporting payoff. Separately, work the 166 leads still sitting in Lead and Qualified — we don't have stage-aging data to say whether they're healthy pipeline or stalled, which is itself worth fixing.
+**1. Hold off on further sales push into France and Australia, until Operations investigates the order failure rate there.**
+At 22-23%, roughly 1 in 5 orders in these two markets fails or gets cancelled, about four times the rate in Vectral's best-performing market (Singapore, 6%). Pushing harder into these markets without knowing _why_ the failure rate is high risks scaling the problem right alongside the growth. I considered recommending an immediate vendor swap in these markets instead, but ruled it out, there's currently no way to confirm which vendor is even responsible, so swapping first would be a guess, not a fix.
+
+**2. Re-check the Fleet Health Alerts result before rolling it out company-wide.**
+The 57% activity lift looks like a clear win at face value, but Treatment and Control weren't evenly split by plan tier, Control skewed Starter, Treatment skewed Enterprise. Rolling this out to every customer based on the raw number risks overstating the feature's actual effect, since some of that lift may just be "bigger customers were more likely to end up in Treatment." I considered recommending an immediate full rollout, since the direction is genuinely promising, but ruled it out until the result is checked controlling for plan tier, and run through an actual significance test rather than a simple before/after comparison.
+
+**3. Add a `converted_customer_id` field to Sales, and a `vendor_id` field to Orders.**
+Both are small, one-column schema changes, but they unlock real answers Vectral can't currently get: true cost-per-channel (is Inbound's bigger deal size actually worth its lower conversion rate, once cost is factored in?), and true vendor accountability (which vendor is actually behind the France/Australia problem?). I considered a workaround, fuzzy-matching leads to customers by country and industry, or spreading vendor performance evenly across orders in the same country and ruled both out. Either would produce a number, but an invented one dressed up as data is more likely to mislead a decision-maker than an honest "we can't answer this yet."
+
+**4. Get eyes on the 166 leads still sitting in Lead and Qualified.**
+This is a related but separate ask from #3. it's a sales-process question, not a data-model one. Right now there's no way to tell whether these are healthy, recently-created pipeline or leads that have gone quiet for months, because the data doesn't track how long a lead has sat in its current stage. I'd treat "add stage-aging data" as a companion fix to the two schema changes above. small to implement, and it turns a real blind spot into an answerable question the next time this kind of review happens.
 
 ---
 

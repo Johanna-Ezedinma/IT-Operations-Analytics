@@ -7,14 +7,12 @@
 [![Data Profiling](https://img.shields.io/badge/Data_Profiling-5444F1?style=for-the-badge)](../vectral/docs/01_data_profiling.md)
 [![Data Preparation](https://img.shields.io/badge/Data_Preparation-5B6864?style=for-the-badge)](../docs/02_data_preparation.md)
 [![Analysis](https://img.shields.io/badge/Analysis-5B6864?style=for-the-badge)](../docs/03_analysis.md)
-[![Recommendations](https://img.shields.io/badge/Recommendations-5B6864?style=for-the-badge)](../docs/recommendations.md)
-[![Dashboard](https://img.shields.io/badge/Dashboard-5B6864?style=for-the-badge)](#the-dashboard)
 
 </td>
 </tr>
 </table>
 
-What I found in each table before making any changes. One table at a time, checked independently before deciding what to do about anything — see [Data Cleaning](02_data-preparation.md) for the decisions.
+What I found in each table before making any changes. One table at a time, checked independently before deciding what to do about anything, see [Data Preparation](02_data-preparation.md) for the decisions.
 
 ## Customers
 
