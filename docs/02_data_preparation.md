@@ -12,7 +12,7 @@
 </tr>
 </table>
 
-What I did about each issue found in [Data Profiling](01_data-profiling.md), the options I considered, and why. Every decision here is also encoded directly in `clean_vectral_data.py`, so the raw data can be re-cleaned the same way at any time.
+What I did about each issue found in [Data Profiling](01_data_profiling.md), the options I considered, and why.
 
 ## Customers — 147 → 145 rows
 

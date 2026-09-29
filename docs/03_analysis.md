@@ -14,7 +14,7 @@
 
 ## What Vectral Should Measure
 
-15 metrics, why each one matters, what it helps decide, and who should own it. A few available fields didn't make this list on purpose `device_model` and the raw `active_users ÷ devices_in_scope` ratio both turned out to be unreliable during cleaning (see [Data Cleaning](02_data-preparation.md)), so I left them out rather than build a metric on shaky ground.
+15 metrics, why each one matters, what it helps decide, and who should own it. A few available fields didn't make this list on purpose `device_model` and the raw `active_users ÷ devices_in_scope` ratio both turned out to be unreliable during cleaning, so I left them out rather than build a metric on shaky ground.
 
 | Metric                                          | Why it matters                                                                     | What it helps decide                                       | Owner                     |
 | ----------------------------------------------- | ---------------------------------------------------------------------------------- | ---------------------------------------------------------- | ------------------------- |

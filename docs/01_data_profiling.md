@@ -12,7 +12,7 @@
 </tr>
 </table>
 
-What I found in each table before making any changes. One table at a time, checked independently before deciding what to do about anything, see [Data Preparation](02_data-preparation.md) for the decisions.
+What I found in each table before making any changes. One table at a time, checked independently before deciding what to do about anything, see [Data Preparation](02_data_preparation.md) for the decisions.
 
 ## Customers
 
